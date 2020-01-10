@@ -17,10 +17,6 @@ const Loan: React.FC<Props> = (props) => {
 
     const estimateLoan = (cash: string, year: string) => {
 
-        if (!cash || !year) {
-            return 0;
-        }
-
         const cashInt = parseInt(cash)
 
         const cashRate = cashInt * 1.15;
@@ -41,7 +37,6 @@ const Loan: React.FC<Props> = (props) => {
                     max="10000000"
                     step="5000"
                     name="value"
-                    placeholder="How much?"
                     value={cash}
                     onChange={event => setCash(event.target.value)}
                 />
@@ -56,7 +51,6 @@ const Loan: React.FC<Props> = (props) => {
                     max="25"
                     step="1"
                     name="years"
-                    placeholder="How many years?"
                     value={year}
                     onChange={event => setYear(event.target.value)}
                 />

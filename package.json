@@ -44,7 +44,7 @@
     "collectCoverageFrom": [
       "src/**/*.{ts,tsx}",
       "!<rootDir>/node_modules/",
-      "!src/{index,serviceWorker,react-app-env}.{ts,tsx}",
+      "!src/{index,serviceWorker}.{ts,tsx}",
       "!src/react-app-env.d.ts"
     ],
     "coverageThreshold": {

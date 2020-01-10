@@ -37,5 +37,4 @@ test('Apply for a loan, and view it in the Account', () => {
 
     expect(totalLoan.innerHTML).toEqual("6,500")
 
-
   })

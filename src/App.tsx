@@ -7,8 +7,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import NoMatch from './NoMatch';
 
+import NoMatch from './NoMatch';
 import Loan from './pages/Loan/Loan';
 import Home from './pages/Home/Home';
 import Account from './pages/Account/Account';
